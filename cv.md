@@ -1,10 +1,6 @@
 # Sergey Demin
 
-==============
-
 ## Contact info:
-
----
 
 - **Location:** Ryazan, Russia
 - **Email:** zergend@gmail.com
@@ -12,5 +8,3 @@
 - **Github:** [zergend](https://github.com/zergend)
 
 ## About myself:
-
----
