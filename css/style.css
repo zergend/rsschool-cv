@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: "Nunito", sans-serif;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 200%;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 150%;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.header {
+}
+
+.main {
+}
+
+.nav {
+}
+
+.nav-items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.section {
+}
+
+.section-items {
+    list-style: none;
+}
+
+.section-item {
+}
+
+.section-title {
+}
+
+.aside {
+}
+
+.footer {
+}
+
+.logo {
+    border-radius: 10%;
+}
+
+pre {
+}
