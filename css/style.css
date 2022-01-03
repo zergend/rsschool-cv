@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  min-width: 450px;
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: darkslategray;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.column:nth-child(1) {
+  flex-basis: 35%;
+  background-color: #555;
+  color: beige;
+}
+.column:nth-child(2) {
+  flex-basis: 65%;
+}
+
+.nav,
+.footer {
+  background-color: #777;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+}
+
+.nav-link {
+  padding: 10px 20px;
+  line-height: 40px;
+  text-decoration: none;
+  color: beige;
+  transition: 0.3s linear;
+}
+
+.nav-link:hover {
+  box-shadow: 200px 0 0 0 cadetblue inset;
+  transition: 0.3s linear;
+}
+
+.section {
+  /*  width: 100%; */
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.section-profile {
+  background-color: #646464;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  padding: 25px;
+}
+
+.section-list {
+  /* list-style: none; */
+  list-style-type: circle;
+  list-style-position: inside;
+  padding: 0 5px;
+  /* margin: 0; */
+}
+
+.section-item a,
+.github-link {
+  color: burlywood;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.section-item a:hover,
+.github-link:hover {
+  color: cadetblue;
+}
+
+.section-title {
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  color: cadetblue;
+}
+
+.main-title {
+  color: beige;
+  font-size: 35px;
+}
+
+.main-subtitle {
+  color: burlywood;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.footer-copyright {
+  color: beige;
+}
+
+.logo {
+  border-radius: 50%;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
+pre {
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .column:nth-child(1),
+  .column:nth-child(2) {
+    flex-basis: 100%;
+  }
+}

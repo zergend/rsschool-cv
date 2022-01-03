@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About me</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code</a>
+            </li>
+            <li class="nav-item">
+              <a href="#xp" class="nav-link">Experience</a>
+            </li>
+            <li class="nav-item">
+              <a href="#edu" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english" class="nav-link">English</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="container-profile">
+          <section class="section section-profile" id="profile">
+            <div class="section-logo">
+              <img
+                src="assets/img/ava.jpg"
+                class="logo"
+                alt="My photo"
+                width="150"
+                height="150"
+              />
+            </div>
+            <div class="section-profile-title">
+              <h1 class="section-title main-title">Sergei Demin</h1>
+              <h3 class="main-subtitle">
+                Student of the Rolling Scopes School
+              </h3>
+            </div>
+          </section>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="container main-container">
+        <div class="column">
+          <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="section-list">
+              <li class="section-item">Ryazan, Russia</li>
+              <li class="section-item">
+                Email:
+                <a href="mailto:zergend@gmail.com" title="email"
+                  >zergend@gmail.com</a
+                >
+              </li>
+              <li class="section-item">
+                Telegram:
+                <a href="https://t.me/zergend" title="Telegram">@zergend</a>
+              </li>
+              <li class="section-item">
+                Github:
+                <a href="https://github.com/zergend">zergend</a>
+              </li>
+              <li class="section-item">
+                Discord:
+                <a href="https://discord.com/users/766620568182587405"
+                  >zergend#4597</a
+                >
+              </li>
+            </ul>
+          </section>
+
+          <section class="section" id="about">
+            <h2 class="section-title">About me</h2>
+            <p>
+              My goal is to achieve deep practical knowledge in front-end
+              development, find an interesting job.
+            </p>
+          </section>
+
+          <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="section-list">
+              <li class="section-item">HTML</li>
+              <li class="section-item">CSS</li>
+              <li class="section-item">JS</li>
+              <li class="section-item">PHP</li>
+              <li class="section-item">Git</li>
+              <li class="section-item">Figma</li>
+              <li class="section-item">Photoshop</li>
+            </ul>
+          </section>
+        </div>
+        <div class="column">
+          <section class="section" id="code">
+            <h2 class="section-title">Code</h2>
+            <pre>
+function isDivideBy(number, a, b) {
+    if ((number % a == 0) && (number % b == 0)) {
+        return true;
+    } else {
+        return false;
+    }
+}
+            </pre>
+          </section>
+
+          <section class="section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <ul class="section-list">
+              <li class="section-item">
+                <a href="https://zergend.github.io/rsschool-cv/cv"
+                  >CV#1. Markdown & Git</a
+                >
+              </li>
+              <li class="section-item">
+                <a href="https://zergend.github.io/rsschool-cv/"
+                  >CV#2. HTML, CSS & Git Basics</a
+                >
+              </li>
+            </ul>
+          </section>
+
+          <section class="section" id="edu">
+            <h2 class="section-title">Education</h2>
+            <p>
+              MESI (Moscow State University of Economics, Statistics and
+              Informatics) graduate in 2015 with a degree in computer science in
+              management.
+            </p>
+            <p>
+              In 2016 I successfully completed the "Basic HTML and CSS" course
+              from htmlacademy.
+            </p>
+          </section>
+
+          <section class="section" id="english">
+            <h2 class="section-title">English</h2>
+            <p>English language proficiency - A1</p>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-container">
+        <div class="footer-copyright">
+          &copy; 2022
+          <a href="https://github.com/zergend" class="github-link">zergend</a>
+        </div>
+        <div class="footer-rsshool">
+          <a href="https://rs.school/js/" class="rsschool"
+            ><img
+              src="assets/svg/rs_school_js.svg"
+              alt="rs school js"
+              width="96"
+              height="36"
+          /></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
