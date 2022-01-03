@@ -2,11 +2,11 @@
 
 ## Contact info
 
-- **Location:** Ryazan, Russia
-- **Email:** zergend@gmail.com
-- **Telegram:** @zergend
-- **Github:** [zergend](https://github.com/zergend)
-- **Didcord:** zergend#4597
+-   **Location:** Ryazan, Russia
+-   **Email:** zergend@gmail.com
+-   **Telegram:** @zergend
+-   **Github:** [zergend](https://github.com/zergend)
+-   **Didcord:** zergend#4597
 
 ## About me
 
@@ -14,15 +14,15 @@ My goal is to achieve deep practical knowledge in front-end development, find an
 
 ## Skills
 
-- HTML
-- CSS
-- JS (basic)
-- PHP (basic)
-- Git
-- Figma
-- Photoshop
+-   HTML
+-   CSS
+-   JS (basic)
+-   PHP (basic)
+-   Git
+-   Figma
+-   Photoshop
 
-## Code exemple
+## Code example
 
 ```
 function isDivideBy(number, a, b) {
